@@ -1,3 +1,4 @@
+# Hanelere tek tek bakarak gereksiz uzattığımın farkındayım, onu bir ara düzelticem şimdi karışık geliyor.
 sifre = input("Lütfen yeni bir şifre giriniz: ")   
 dogruluk = 0 # Girilen her hanenin bir rakam olup olmadığını kontrol edicek.
 for x in range(0,len(sifre)): # 4 haneden az girilme ihtimaline karşın aralığı len(sifre)'yle belirtiyorum
