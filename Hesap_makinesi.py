@@ -1,3 +1,4 @@
+# Henüz bitmedi
 print("\nProgramı kapatmak için operatör girmek yerine '?' (soru işareti) girmeniz yeterlidir!!\n")
 while True:
     s1 = input("İlk sayıyı giriniz: ")
