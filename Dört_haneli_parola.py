@@ -1,5 +1,5 @@
 sifre = input("Lütfen yeni bir şifre giriniz: ")
-liste = []             
+liste = [] # Biraz gereksiz olabilir kodu sürekli değiştirirken bir ara kullanmak çok mantıklı geldi.      
 dogruluk = 0 # Girilen her hanenin bir rakam olup olmadığını kontrol edicek.
 for x in range(0,4): # Sadece ilk 4 hanenin rakam olup olmadığına bakıyorum çünkü while'da şart olarak len(sifre)'yi de belirttim.
     liste.append(sifre[x])
