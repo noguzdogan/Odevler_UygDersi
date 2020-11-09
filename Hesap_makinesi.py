@@ -5,7 +5,7 @@ while True:
     ondalik_s2 = 0 # Float tipi s2 için
     s1 = input("İlk sayıyı giriniz: ")
     s2 = input("İkinci sayıyı giriniz: ")
-    # Float'ları da dahil edebilmek için diğer '#' işaretine kadar olan işlemi yapıyorum.
+    # -------- Float'ları da dahil edebilmek için diğer '#' işaretine kadar olan işlemi yapıyorum --------
     for x in range(0,len(s1)):
         if len(s1) > 2 and s1[x] == ".":
             ondalik_s1 += 1
@@ -16,7 +16,7 @@ while True:
             ondalik_s2 += 1
     if ondalik_s2 == 1:
         s2 = float(s2)
-    # İşlemlerin sonu
+    # -------- İşlemlerin sonu --------
     if (type(s1) == float or type(s2) == float):
         islem = input("İstediğiniz işleme göre '+,-,*,/' operatörlerinden birini giriniz: ")
         if islem == "+":
